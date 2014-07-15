@@ -1,5 +1,5 @@
 ---
-languages: html
+languages: html, css
 tags: validation, errors
 resources: 1
 ---
