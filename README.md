@@ -1,8 +1,4 @@
----
-languages: html, css
-tags: validation, errors
-resources: 1
----
+
 
 # CSS Issue Bot 9000
 
