@@ -1,25 +1,29 @@
-
-
 # CSS Issue Bot 9000
 
-Bleep bloop, please help Issue Bot 9000 solve all CSS validation errors using the W3C Jigsaw CSS validator.
+## Problem Statement
 
-## Steps
+Although today's browsers are becoming more capable of accommodating for errors in CSS, some errors are not always caught gracefully. This variable can make it extremely difficult to apply style or layout consistently. What can be done to quickly scan our CSS documents for issues? Let's practice using the W3C's CSS Validator!
 
-## Tasks for LearnIDE Environment Users
+## Objectives 
+1. Change invalid CSS to valid CSS
 
-1. Click the "OPEN IDE" button
+## Change Invalid CSS to Valid CSS
 
-## Tasks for Local Environment Users
+## Steps 
+In this lesson, we will be taking the invalid CSS in `css/style.css` and changing it to be valid.
+1. Click the "OPEN" button. 
+2. Open index.html in your browser. Notice how our styles don't look quite right? 
+3. Open css/style.css in your text editor.
+4. Visit the W3C CSS validator [http://jigsaw.w3.org/css-validator/#validate_by_input](http://jigsaw.w3.org/css-validator/#validate_by_input). If not already selected, click on the tab labeled "By direct input".
+5. Copy the code from css/style.css and paste it into the text area. Click the "Check" button.
+6. Use the error messages to correct the CSS. 
+7. Repeat steps 3-5 until your readout states "Congratulations! No Error Found.".
 
-1. Fork this repository.
-2. Clone your fork locally.
-3. `cd` into the local repo you just cloned.
+Remember to check your progress in `index.html` in your browser!
 
-## Process 
+## Conclusion
 
-1. copy the code from css/style.css and paste it into the W3C validator at: [http://jigsaw.w3.org/css-validator/#validate_by_input](http://jigsaw.w3.org/css-validator/#validate_by_input) then click the large check button to check the code. Use the error messages to correct the code line by line. Save the file then re-validate the code again until all errors are gone. This will make Issue Bot 9000 very happy!
-2. (HINT: If you'd like to take a look at your handiwork, you can preview this in your browser by right-clicking the file in the file tree, and selecting "Open in Browser" .)
+With a CSS validator, you can work your way through cleaning up errors in a CSS document and reduce the likelihood of display errors across platforms. Using the W3C CSS validator will help you quickly and efficiently troubleshoot your CSS.
 
 ## Resources
 
