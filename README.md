@@ -1,4 +1,8 @@
-# CSS Issue Bot 9000
+# CSS Validation Lab: Issue Bot 9000
+
+## Learning Goals
+
+- Change invalid CSS to valid CSS
 
 ## Introduction
 
@@ -8,23 +12,47 @@ extremely difficult to apply style or layout consistently. What can be done to
 quickly scan our CSS documents for issues? Let's practice using the W3C's CSS
 Validator!
 
-## Learning Goals
+## Getting Started
 
-- Change invalid CSS to valid CSS
+Fork and clone this lesson into your local environment. Navigate into its
+directory in the terminal, then run `code .` to open the files in Visual Studio
+Code. Finally, run `npm install` to install the lab's dependencies. Run
+`npm test` to as you go to see your test progress.
 
 ## Change Invalid CSS to Valid CSS
 
-In this lesson, we will be taking the invalid CSS in `css/style.css` and changing it to valid.
+In this lesson, we will be taking the invalid CSS in `css/style.css` and
+changing it to valid.
 
-1. Click the "OPEN" button. 
-2. Open index.html in your browser. Notice how our styles don't look quite right? 
-3. Open css/style.css in your text editor.
-4. Visit the W3C CSS validator [http://jigsaw.w3.org/css-validator/#validate_by_input](http://jigsaw.w3.org/css-validator/#validate_by_input). If not already selected, click on the tab labeled "By direct input".
-5. Copy the code from css/style.css and paste it into the text area. Click the "Check" button.
-6. Use the error messages to correct the CSS. 
-7. Repeat steps 3-5 until your readout states "Congratulations! No Error Found.".
+1. Open index.html in your browser. Notice how our styles don't look quite
+   right?
+2. Open css/style.css in your text editor.
+3. Visit the W3C CSS validator
+   [http://jigsaw.w3.org/css-validator/#validate_by_input](http://jigsaw.w3.org/css-validator/#validate_by_input).
+   If not already selected, click on the tab labeled "By direct input".
+4. Copy the code from css/style.css and paste it into the text area. Click the
+   "Check" button.
+5. Use the error messages to correct the CSS.
+6. Repeat steps 3-5 until your readout states "Congratulations! No Error
+   Found.".
 
 Remember to check your progress in `index.html` in your browser!
+
+## Saving Your Work Remotely
+
+Currently, the work you've done on this assignment is only on your local
+machine. To preserve work on your GitHub fork, you will need to stage the
+changes you've made, commit them, and push the commit up to GitHub. Use the
+following commands to do this:
+
+```console
+$ git add .
+$ git commit -m "Completed assignment"
+$ git push
+```
+
+If you visit your fork on GitHub, you should now see that _you've_ made the most
+recent commit, and your solution will be present in the files.
 
 ## Conclusion
 
@@ -34,4 +62,4 @@ W3C CSS validator will help you quickly and efficiently troubleshoot your CSS.
 
 ## Resources
 
-[W3C CSS Validator - Validate Direct Input](http://jigsaw.w3.org/css-validator/#validate_by_input)
+- [W3C CSS Validator - Validate Direct Input](http://jigsaw.w3.org/css-validator/#validate_by_input)
