@@ -14,7 +14,7 @@ function findRule(rules, cssSelector) {
   return rules.find((r) => r.selectorText === cssSelector);
 }
 
-describe("index.css", () => {
+describe("css/style.css", () => {
   let css;
   before(() => {
     css = CSSOM.parse(cssFile);
