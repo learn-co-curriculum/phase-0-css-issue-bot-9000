@@ -16,8 +16,7 @@ Validator!
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `bundle` to install the lab's dependencies. Run `rspec` to as
-you go to see your test progress.
+Code. Run `learn test` as you go to see your test progress.
 
 ## Change Invalid CSS to Valid CSS
 
@@ -37,22 +36,6 @@ changing it to valid.
    Found.".
 
 Remember to check your progress in `index.html` in your browser!
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use the
-following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your solution will be present in the files.
 
 ## Conclusion
 
