@@ -14,9 +14,9 @@ Validator!
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its
+**Fork and clone** this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Run `learn test` as you go to see your test progress.
+Code. Run `npm test` as you go to see your test progress.
 
 ## Change Invalid CSS to Valid CSS
 
